@@ -1,0 +1,25 @@
+body {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+.container {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-template-rows: repeat(5, 20em);
+    grid-column-gap: 5%;
+    grid-row-gap: 5%;
+    border: 1px solid #336699;
+}
+
+.container div {
+    padding: 10px;
+    border: 1px solid #CC2233;
+}
+
+

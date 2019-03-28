@@ -1,0 +1,67 @@
+body {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
+    background: rgb(237, 202, 75);
+}
+
+h1 {
+    font-size: 2em;
+}
+
+.box {
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    align-items: stretch;
+    border-bottom: 1px solid black;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.itemShort {
+    flex: 0 1 25%;
+}
+
+.itemLong {
+    flex: 0 1 30%;
+    font-size: 1.5em;
+}
+
+.itemMed {
+    flex: 0 1 40%;
+}
+
+.wrap {
+    width: 90%;
+    border-bottom: 1px solid black;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.top-title {
+    width: 20%;
+    font-size: 2em;
+    max-width: 180px;
+    min-width: 180px;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+.title {
+    color: white;
+    font-size: 9em;
+    text-align: right;
+    line-height: 0.1em;
+}
+
+@media only screen and (max-width: 1300px) {
+    .title {
+        font-size: 7em;
+    }
+}
+
+
